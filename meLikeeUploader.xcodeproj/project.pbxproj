@@ -14,6 +14,10 @@
 		8CDB569E1D00AA99000F63DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CDB569C1D00AA99000F63DB /* Main.storyboard */; };
 		8CDB56A91D00AA99000F63DB /* meLikeeUploaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CDB56A81D00AA99000F63DB /* meLikeeUploaderTests.m */; };
 		8CDB56B41D00AA99000F63DB /* meLikeeUploaderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CDB56B31D00AA99000F63DB /* meLikeeUploaderUITests.m */; };
+		8CDB56D21D00AF0D000F63DB /* CocoaUploadAudioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CDB56D11D00AF0D000F63DB /* CocoaUploadAudioViewController.m */; };
+		8CDB56D61D00AF9B000F63DB /* CocoaCreateProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CDB56D41D00AF9B000F63DB /* CocoaCreateProfile.m */; };
+		8CDB56DE1D00CA7F000F63DB /* Uploader.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CDB56DD1D00CA7F000F63DB /* Uploader.m */; };
+		8CDB56E11D00CA98000F63DB /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CDB56E01D00CA98000F63DB /* CloudKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,14 @@
 		8CDB56AF1D00AA99000F63DB /* meLikeeUploaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = meLikeeUploaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CDB56B31D00AA99000F63DB /* meLikeeUploaderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = meLikeeUploaderUITests.m; sourceTree = "<group>"; };
 		8CDB56B51D00AA99000F63DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CDB56D01D00AF0C000F63DB /* CocoaUploadAudioViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocoaUploadAudioViewController.h; sourceTree = "<group>"; };
+		8CDB56D11D00AF0D000F63DB /* CocoaUploadAudioViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CocoaUploadAudioViewController.m; sourceTree = "<group>"; };
+		8CDB56D31D00AF9B000F63DB /* CocoaCreateProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocoaCreateProfile.h; sourceTree = "<group>"; };
+		8CDB56D41D00AF9B000F63DB /* CocoaCreateProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CocoaCreateProfile.m; sourceTree = "<group>"; };
+		8CDB56DC1D00CA7F000F63DB /* Uploader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Uploader.h; path = HelloUploader/HelloUploader/Uploader.h; sourceTree = "<group>"; };
+		8CDB56DD1D00CA7F000F63DB /* Uploader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Uploader.m; path = HelloUploader/HelloUploader/Uploader.m; sourceTree = "<group>"; };
+		8CDB56DF1D00CA8D000F63DB /* meLikeeUploader.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = meLikeeUploader.entitlements; sourceTree = "<group>"; };
+		8CDB56E01D00CA98000F63DB /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CDB56E11D00CA98000F63DB /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +92,7 @@
 		8CDB56851D00AA99000F63DB = {
 			isa = PBXGroup;
 			children = (
+				8CDB56E01D00CA98000F63DB /* CloudKit.framework */,
 				8CDB56901D00AA99000F63DB /* meLikeeUploader */,
 				8CDB56A71D00AA99000F63DB /* meLikeeUploaderTests */,
 				8CDB56B21D00AA99000F63DB /* meLikeeUploaderUITests */,
@@ -99,10 +113,16 @@
 		8CDB56901D00AA99000F63DB /* meLikeeUploader */ = {
 			isa = PBXGroup;
 			children = (
+				8CDB56DF1D00CA8D000F63DB /* meLikeeUploader.entitlements */,
 				8CDB56911D00AA99000F63DB /* AppDelegate.h */,
 				8CDB56921D00AA99000F63DB /* AppDelegate.m */,
 				8CDB56971D00AA99000F63DB /* ViewController.h */,
 				8CDB56981D00AA99000F63DB /* ViewController.m */,
+				8CDB56D31D00AF9B000F63DB /* CocoaCreateProfile.h */,
+				8CDB56D41D00AF9B000F63DB /* CocoaCreateProfile.m */,
+				8CDB56D01D00AF0C000F63DB /* CocoaUploadAudioViewController.h */,
+				8CDB56D11D00AF0D000F63DB /* CocoaUploadAudioViewController.m */,
+				8CDB56DA1D00B095000F63DB /* Controllers */,
 				8CDB569A1D00AA99000F63DB /* Assets.xcassets */,
 				8CDB569C1D00AA99000F63DB /* Main.storyboard */,
 				8CDB569F1D00AA99000F63DB /* Info.plist */,
@@ -135,6 +155,16 @@
 				8CDB56B51D00AA99000F63DB /* Info.plist */,
 			);
 			path = meLikeeUploaderUITests;
+			sourceTree = "<group>";
+		};
+		8CDB56DA1D00B095000F63DB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8CDB56DC1D00CA7F000F63DB /* Uploader.h */,
+				8CDB56DD1D00CA7F000F63DB /* Uploader.m */,
+			);
+			name = Controllers;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,6 +234,12 @@
 				TargetAttributes = {
 					8CDB568D1D00AA99000F63DB = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = SGRW3864BW;
+						SystemCapabilities = {
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
 					};
 					8CDB56A31D00AA99000F63DB = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -266,6 +302,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CDB56D21D00AF0D000F63DB /* CocoaUploadAudioViewController.m in Sources */,
+				8CDB56DE1D00CA7F000F63DB /* Uploader.m in Sources */,
+				8CDB56D61D00AF9B000F63DB /* CocoaCreateProfile.m in Sources */,
 				8CDB56991D00AA99000F63DB /* ViewController.m in Sources */,
 				8CDB56961D00AA99000F63DB /* main.m in Sources */,
 				8CDB56931D00AA99000F63DB /* AppDelegate.m in Sources */,
@@ -400,11 +439,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = meLikeeUploader/meLikeeUploader.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = meLikeeUploader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.RicardoNazario.meLikeeUploader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -412,11 +455,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = meLikeeUploader/meLikeeUploader.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = meLikeeUploader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.RicardoNazario.meLikeeUploader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -489,6 +536,7 @@
 				8CDB56BA1D00AA99000F63DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8CDB56BB1D00AA99000F63DB /* Build configuration list for PBXNativeTarget "meLikeeUploaderTests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +545,7 @@
 				8CDB56BD1D00AA99000F63DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8CDB56BE1D00AA99000F63DB /* Build configuration list for PBXNativeTarget "meLikeeUploaderUITests" */ = {
 			isa = XCConfigurationList;
@@ -505,6 +554,7 @@
 				8CDB56C01D00AA99000F63DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
