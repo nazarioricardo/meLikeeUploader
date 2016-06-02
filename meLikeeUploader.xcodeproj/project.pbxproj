@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8CDB56931D00AA99000F63DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CDB56921D00AA99000F63DB /* AppDelegate.m */; };
+		8CDB56961D00AA99000F63DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CDB56951D00AA99000F63DB /* main.m */; };
+		8CDB56991D00AA99000F63DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CDB56981D00AA99000F63DB /* ViewController.m */; };
+		8CDB569B1D00AA99000F63DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CDB569A1D00AA99000F63DB /* Assets.xcassets */; };
+		8CDB569E1D00AA99000F63DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CDB569C1D00AA99000F63DB /* Main.storyboard */; };
+		8CDB56A91D00AA99000F63DB /* meLikeeUploaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CDB56A81D00AA99000F63DB /* meLikeeUploaderTests.m */; };
+		8CDB56B41D00AA99000F63DB /* meLikeeUploaderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CDB56B31D00AA99000F63DB /* meLikeeUploaderUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8CDB56A51D00AA99000F63DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CDB56861D00AA99000F63DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CDB568D1D00AA99000F63DB;
+			remoteInfo = meLikeeUploader;
+		};
+		8CDB56B01D00AA99000F63DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CDB56861D00AA99000F63DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CDB568D1D00AA99000F63DB;
+			remoteInfo = meLikeeUploader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8CDB568E1D00AA99000F63DB /* meLikeeUploader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = meLikeeUploader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CDB56911D00AA99000F63DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8CDB56921D00AA99000F63DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8CDB56951D00AA99000F63DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8CDB56971D00AA99000F63DB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8CDB56981D00AA99000F63DB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8CDB569A1D00AA99000F63DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8CDB569D1D00AA99000F63DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8CDB569F1D00AA99000F63DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CDB56A41D00AA99000F63DB /* meLikeeUploaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = meLikeeUploaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CDB56A81D00AA99000F63DB /* meLikeeUploaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = meLikeeUploaderTests.m; sourceTree = "<group>"; };
+		8CDB56AA1D00AA99000F63DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CDB56AF1D00AA99000F63DB /* meLikeeUploaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = meLikeeUploaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CDB56B31D00AA99000F63DB /* meLikeeUploaderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = meLikeeUploaderUITests.m; sourceTree = "<group>"; };
+		8CDB56B51D00AA99000F63DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8CDB568B1D00AA99000F63DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CDB56A11D00AA99000F63DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CDB56AC1D00AA99000F63DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8CDB56851D00AA99000F63DB = {
+			isa = PBXGroup;
+			children = (
+				8CDB56901D00AA99000F63DB /* meLikeeUploader */,
+				8CDB56A71D00AA99000F63DB /* meLikeeUploaderTests */,
+				8CDB56B21D00AA99000F63DB /* meLikeeUploaderUITests */,
+				8CDB568F1D00AA99000F63DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8CDB568F1D00AA99000F63DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CDB568E1D00AA99000F63DB /* meLikeeUploader.app */,
+				8CDB56A41D00AA99000F63DB /* meLikeeUploaderTests.xctest */,
+				8CDB56AF1D00AA99000F63DB /* meLikeeUploaderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8CDB56901D00AA99000F63DB /* meLikeeUploader */ = {
+			isa = PBXGroup;
+			children = (
+				8CDB56911D00AA99000F63DB /* AppDelegate.h */,
+				8CDB56921D00AA99000F63DB /* AppDelegate.m */,
+				8CDB56971D00AA99000F63DB /* ViewController.h */,
+				8CDB56981D00AA99000F63DB /* ViewController.m */,
+				8CDB569A1D00AA99000F63DB /* Assets.xcassets */,
+				8CDB569C1D00AA99000F63DB /* Main.storyboard */,
+				8CDB569F1D00AA99000F63DB /* Info.plist */,
+				8CDB56941D00AA99000F63DB /* Supporting Files */,
+			);
+			path = meLikeeUploader;
+			sourceTree = "<group>";
+		};
+		8CDB56941D00AA99000F63DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8CDB56951D00AA99000F63DB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8CDB56A71D00AA99000F63DB /* meLikeeUploaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				8CDB56A81D00AA99000F63DB /* meLikeeUploaderTests.m */,
+				8CDB56AA1D00AA99000F63DB /* Info.plist */,
+			);
+			path = meLikeeUploaderTests;
+			sourceTree = "<group>";
+		};
+		8CDB56B21D00AA99000F63DB /* meLikeeUploaderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8CDB56B31D00AA99000F63DB /* meLikeeUploaderUITests.m */,
+				8CDB56B51D00AA99000F63DB /* Info.plist */,
+			);
+			path = meLikeeUploaderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8CDB568D1D00AA99000F63DB /* meLikeeUploader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CDB56B81D00AA99000F63DB /* Build configuration list for PBXNativeTarget "meLikeeUploader" */;
+			buildPhases = (
+				8CDB568A1D00AA99000F63DB /* Sources */,
+				8CDB568B1D00AA99000F63DB /* Frameworks */,
+				8CDB568C1D00AA99000F63DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = meLikeeUploader;
+			productName = meLikeeUploader;
+			productReference = 8CDB568E1D00AA99000F63DB /* meLikeeUploader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8CDB56A31D00AA99000F63DB /* meLikeeUploaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CDB56BB1D00AA99000F63DB /* Build configuration list for PBXNativeTarget "meLikeeUploaderTests" */;
+			buildPhases = (
+				8CDB56A01D00AA99000F63DB /* Sources */,
+				8CDB56A11D00AA99000F63DB /* Frameworks */,
+				8CDB56A21D00AA99000F63DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CDB56A61D00AA99000F63DB /* PBXTargetDependency */,
+			);
+			name = meLikeeUploaderTests;
+			productName = meLikeeUploaderTests;
+			productReference = 8CDB56A41D00AA99000F63DB /* meLikeeUploaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8CDB56AE1D00AA99000F63DB /* meLikeeUploaderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CDB56BE1D00AA99000F63DB /* Build configuration list for PBXNativeTarget "meLikeeUploaderUITests" */;
+			buildPhases = (
+				8CDB56AB1D00AA99000F63DB /* Sources */,
+				8CDB56AC1D00AA99000F63DB /* Frameworks */,
+				8CDB56AD1D00AA99000F63DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CDB56B11D00AA99000F63DB /* PBXTargetDependency */,
+			);
+			name = meLikeeUploaderUITests;
+			productName = meLikeeUploaderUITests;
+			productReference = 8CDB56AF1D00AA99000F63DB /* meLikeeUploaderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8CDB56861D00AA99000F63DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Ricardo Nazario";
+				TargetAttributes = {
+					8CDB568D1D00AA99000F63DB = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					8CDB56A31D00AA99000F63DB = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 8CDB568D1D00AA99000F63DB;
+					};
+					8CDB56AE1D00AA99000F63DB = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 8CDB568D1D00AA99000F63DB;
+					};
+				};
+			};
+			buildConfigurationList = 8CDB56891D00AA99000F63DB /* Build configuration list for PBXProject "meLikeeUploader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8CDB56851D00AA99000F63DB;
+			productRefGroup = 8CDB568F1D00AA99000F63DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CDB568D1D00AA99000F63DB /* meLikeeUploader */,
+				8CDB56A31D00AA99000F63DB /* meLikeeUploaderTests */,
+				8CDB56AE1D00AA99000F63DB /* meLikeeUploaderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8CDB568C1D00AA99000F63DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CDB569B1D00AA99000F63DB /* Assets.xcassets in Resources */,
+				8CDB569E1D00AA99000F63DB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CDB56A21D00AA99000F63DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CDB56AD1D00AA99000F63DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8CDB568A1D00AA99000F63DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CDB56991D00AA99000F63DB /* ViewController.m in Sources */,
+				8CDB56961D00AA99000F63DB /* main.m in Sources */,
+				8CDB56931D00AA99000F63DB /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CDB56A01D00AA99000F63DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CDB56A91D00AA99000F63DB /* meLikeeUploaderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CDB56AB1D00AA99000F63DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CDB56B41D00AA99000F63DB /* meLikeeUploaderUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8CDB56A61D00AA99000F63DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CDB568D1D00AA99000F63DB /* meLikeeUploader */;
+			targetProxy = 8CDB56A51D00AA99000F63DB /* PBXContainerItemProxy */;
+		};
+		8CDB56B11D00AA99000F63DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CDB568D1D00AA99000F63DB /* meLikeeUploader */;
+			targetProxy = 8CDB56B01D00AA99000F63DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8CDB569C1D00AA99000F63DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CDB569D1D00AA99000F63DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8CDB56B61D00AA99000F63DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8CDB56B71D00AA99000F63DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8CDB56B91D00AA99000F63DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = meLikeeUploader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RicardoNazario.meLikeeUploader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8CDB56BA1D00AA99000F63DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = meLikeeUploader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RicardoNazario.meLikeeUploader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8CDB56BC1D00AA99000F63DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = meLikeeUploaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RicardoNazario.meLikeeUploaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/meLikeeUploader.app/Contents/MacOS/meLikeeUploader";
+			};
+			name = Debug;
+		};
+		8CDB56BD1D00AA99000F63DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = meLikeeUploaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RicardoNazario.meLikeeUploaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/meLikeeUploader.app/Contents/MacOS/meLikeeUploader";
+			};
+			name = Release;
+		};
+		8CDB56BF1D00AA99000F63DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = meLikeeUploaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RicardoNazario.meLikeeUploaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = meLikeeUploader;
+			};
+			name = Debug;
+		};
+		8CDB56C01D00AA99000F63DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = meLikeeUploaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RicardoNazario.meLikeeUploaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = meLikeeUploader;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8CDB56891D00AA99000F63DB /* Build configuration list for PBXProject "meLikeeUploader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CDB56B61D00AA99000F63DB /* Debug */,
+				8CDB56B71D00AA99000F63DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CDB56B81D00AA99000F63DB /* Build configuration list for PBXNativeTarget "meLikeeUploader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CDB56B91D00AA99000F63DB /* Debug */,
+				8CDB56BA1D00AA99000F63DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8CDB56BB1D00AA99000F63DB /* Build configuration list for PBXNativeTarget "meLikeeUploaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CDB56BC1D00AA99000F63DB /* Debug */,
+				8CDB56BD1D00AA99000F63DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8CDB56BE1D00AA99000F63DB /* Build configuration list for PBXNativeTarget "meLikeeUploaderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CDB56BF1D00AA99000F63DB /* Debug */,
+				8CDB56C01D00AA99000F63DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8CDB56861D00AA99000F63DB /* Project object */;
+}
