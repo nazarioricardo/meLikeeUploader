@@ -39,7 +39,13 @@
     [self shouldAnimateIndicator:YES];
     
     NSString *lineID = [NSString stringWithFormat:@"%@%@%@", [_ownerIDTextField stringValue], [_levelTextField stringValue], [_lineNumberTextField stringValue]];
-    NSURL *audioURL = [[NSBundle mainBundle] URLForResource:lineID withExtension:@"mp3"];
+    NSArray *desktops = NSSearchPathForDirectoriesInDomains(NSDesktopDirectory, NSUserDomainMask, YES);
+    NSString *desktopPath = desktops[0];
+    NSString *filePath = [NSString stringWithFormat:@"%@/PickUpLines/%@/", desktopPath, [_ownerIDTextField stringValue]];
+    
+    NSURL *audioURL = [[NSBundle bundleWithPath:filePath] URLForResource:lineID withExtension:@"mp3"];
+    
+    NSLog(@"%@", audioURL);
     
     if (audioURL) {
         
